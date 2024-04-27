@@ -1,0 +1,34 @@
+nav {
+  margin: 0;
+  padding: 0;
+  height: 10vh !important;
+  width: 100vw !important;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+nav ul {
+  width: 100vw;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20vw !important;
+}
+nav li:hover {
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
