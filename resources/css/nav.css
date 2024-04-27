@@ -32,3 +32,33 @@ nav a {
   color: white;
   padding: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  nav {
+    height: auto !important;
+    flex-direction: column;
+    padding: 10px 0;
+    font-size: 12px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: auto;
+  }
+
+  nav li {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    padding: 5px;
+  }
+}
+
+/* Stili per tablet */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  nav li {
+    margin-right: 10vw !important;
+  }
+}
