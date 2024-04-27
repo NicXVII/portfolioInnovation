@@ -8,7 +8,7 @@
             </a>
         </li>
         <li>
-            <a href="#">Skills</a>
+            <a href="skills.php">Skills</a>
         </li>
         <li>
             <a href="#">Projects</a>
