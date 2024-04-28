@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <?php
+    <?
     require_once('components/nav.php');
     ?>
     <div class="phrase">

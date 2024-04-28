@@ -11,7 +11,7 @@
             <a href="skills.php">Skills</a>
         </li>
         <li>
-            <a href="#">Projects</a>
+            <a href="projects.php">Projects</a>
         </li>
         <li>
             <a href="contact.php">Contact</a>
