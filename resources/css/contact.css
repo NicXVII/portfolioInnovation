@@ -34,12 +34,20 @@ body {
 
 .img {
   width: 30%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .img img {
   max-width: 100%;
   height: auto;
+}
+.img img:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+  transform: scale(1.15);
 }
 
 .info {
